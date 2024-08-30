@@ -1,0 +1,30 @@
+PODS:
+  - HFMoMain (0.1.0):
+    - HFMoMain/Controller (= 0.1.0)
+    - HFMoMain/PublicAPI (= 0.1.0)
+    - HFMoMain/View (= 0.1.0)
+    - HFRouter
+  - HFRouter (0.1.0):
+    - HFRouter/CTMediator (= 0.1.0)
+    - HFRouter/MGJRouter (= 0.1.0)
+  - HFRouter/CTMediator (0.1.0)
+  - HFRouter/MGJRouter (0.1.0)
+
+DEPENDENCIES:
+  - HFMoMain (from `../`)
+
+SPEC REPOS:
+  https://gitee.com/moduless/hfmo-specs.git:
+    - HFRouter
+
+EXTERNAL SOURCES:
+  HFMoMain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFMoMain: 33f1dea501d7046dae820e38fb250eee9682ee53
+  HFRouter: 6c5c78c2793a2404c6aafc7fa9c7cd384a225b09
+
+PODFILE CHECKSUM: d7f1cd939db821aa9b22ad19c2efefb33dd39eef
+
+COCOAPODS: 1.15.2

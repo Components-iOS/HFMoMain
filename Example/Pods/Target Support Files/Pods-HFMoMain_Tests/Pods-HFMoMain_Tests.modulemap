@@ -1,0 +1,6 @@
+framework module Pods_HFMoMain_Tests {
+  umbrella header "Pods-HFMoMain_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

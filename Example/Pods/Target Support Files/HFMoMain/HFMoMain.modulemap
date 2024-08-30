@@ -1,0 +1,6 @@
+framework module HFMoMain {
+  umbrella header "HFMoMain-umbrella.h"
+
+  export *
+  module * { export * }
+}
