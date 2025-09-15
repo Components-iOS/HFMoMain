@@ -1,8 +1,8 @@
 {
   "name": "HFMoMain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "主结构",
-  "description": "APP住结构组件",
+  "description": "APP主结构组件",
   "homepage": "https://github.com/Components-iOS/HFMoMain",
   "license": {
     "type": "MIT",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/Components-iOS/HFMoMain.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "13.0"
   },
   "dependencies": {
     "HFRouter": [
-
+      "0.2.0"
     ]
   },
   "subspecs": [
@@ -28,21 +28,15 @@
       "name": "PublicAPI",
       "source_files": "HFMoMain/Classes/PublicAPI/**/*",
       "dependencies": {
-        "HFMoMain/Controller": [
-
-        ],
-        "HFMoMain/View": [
-
-        ]
+        "HFMoMain/Controller": [],
+        "HFMoMain/View": []
       }
     },
     {
       "name": "Controller",
       "source_files": "HFMoMain/Classes/Controller/**/*",
       "dependencies": {
-        "HFMoMain/View": [
-
-        ]
+        "HFMoMain/View": []
       }
     },
     {

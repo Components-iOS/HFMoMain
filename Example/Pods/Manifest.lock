@@ -1,20 +1,29 @@
 PODS:
-  - HFMoMain (0.1.0):
-    - HFMoMain/Controller (= 0.1.0)
-    - HFMoMain/PublicAPI (= 0.1.0)
-    - HFMoMain/View (= 0.1.0)
-    - HFRouter
-  - HFRouter (0.1.0):
-    - HFRouter/CTMediator (= 0.1.0)
-    - HFRouter/MGJRouter (= 0.1.0)
-  - HFRouter/CTMediator (0.1.0)
-  - HFRouter/MGJRouter (0.1.0)
+  - HFMoMain (0.1.1):
+    - HFMoMain/Controller (= 0.1.1)
+    - HFMoMain/PublicAPI (= 0.1.1)
+    - HFMoMain/View (= 0.1.1)
+    - HFRouter (= 0.2.0)
+  - HFMoMain/Controller (0.1.1):
+    - HFMoMain/View
+    - HFRouter (= 0.2.0)
+  - HFMoMain/PublicAPI (0.1.1):
+    - HFMoMain/Controller
+    - HFMoMain/View
+    - HFRouter (= 0.2.0)
+  - HFMoMain/View (0.1.1):
+    - HFRouter (= 0.2.0)
+  - HFRouter (0.2.0):
+    - HFRouter/CTMediator (= 0.2.0)
+    - HFRouter/MGJRouter (= 0.2.0)
+  - HFRouter/CTMediator (0.2.0)
+  - HFRouter/MGJRouter (0.2.0)
 
 DEPENDENCIES:
   - HFMoMain (from `../`)
 
 SPEC REPOS:
-  https://gitee.com/moduless/hfmo-specs.git:
+  trunk:
     - HFRouter
 
 EXTERNAL SOURCES:
@@ -22,9 +31,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFMoMain: 33f1dea501d7046dae820e38fb250eee9682ee53
-  HFRouter: 6c5c78c2793a2404c6aafc7fa9c7cd384a225b09
+  HFMoMain: 8a0e6f6ff4687478de6c2e7ba7e4af99a898ebd6
+  HFRouter: d5ea85100b758cb378b3facbb6d35007a2c28f69
 
-PODFILE CHECKSUM: d7f1cd939db821aa9b22ad19c2efefb33dd39eef
+PODFILE CHECKSUM: 1b754edfc9541b2dd3b541e9ad591f2e497af51b
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
