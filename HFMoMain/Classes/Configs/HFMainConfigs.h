@@ -32,6 +32,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat tabbarNormalFontSize;
 /// tabbar item selected 标题字体大小
 @property (nonatomic, assign) CGFloat tabbarSelectedFontSize;
+/// tabbar item 图片和标题之间的间距
+/// 仅在自定义 `HFTabBar` 模式下生效
+@property (nonatomic, assign) CGFloat tabbarTitleImageSpacing;
 /// 是否有tabbar分割线
 /// 仅在 `tabbarLiquidGlassEnabled = NO` 时生效
 @property (nonatomic, assign) BOOL isTabbarSeparator;

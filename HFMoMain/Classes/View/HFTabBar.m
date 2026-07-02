@@ -13,6 +13,7 @@
 @property (nonatomic, strong) UIImageView *iconView;
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) HFTabBarItem *item;
+@property (nonatomic, strong) NSLayoutConstraint *titleTopConstraint;
 
 - (instancetype)initWithItem:(HFTabBarItem *)item;
 - (void)updateSelectedState:(BOOL)selected;
@@ -51,11 +52,13 @@
         [_iconView.heightAnchor constraintEqualToConstant:24.0],
         
         [_titleLabel.centerXAnchor constraintEqualToAnchor:self.centerXAnchor],
-        [_titleLabel.topAnchor constraintEqualToAnchor:_iconView.bottomAnchor constant:2.0],
         [_titleLabel.leadingAnchor constraintGreaterThanOrEqualToAnchor:self.leadingAnchor constant:4.0],
         [_titleLabel.trailingAnchor constraintLessThanOrEqualToAnchor:self.trailingAnchor constant:-4.0],
         [_titleLabel.bottomAnchor constraintLessThanOrEqualToAnchor:self.bottomAnchor constant:-4.0]
     ]];
+    
+    self.titleTopConstraint = [_titleLabel.topAnchor constraintEqualToAnchor:_iconView.bottomAnchor constant:2.0];
+    self.titleTopConstraint.active = YES;
 }
 
 - (void)updateSelectedState:(BOOL)selected {
@@ -65,10 +68,12 @@
     UIImage *image = selected ? (self.item.selectedImage ?: self.item.normalImage) : self.item.normalImage;
     CGFloat normalFontSize = self.item.normalFontSize > 0 ? self.item.normalFontSize : (self.item.fontSize > 0 ? self.item.fontSize : 10.0);
     CGFloat selectedFontSize = self.item.selectedFontSize > 0 ? self.item.selectedFontSize : normalFontSize;
+    CGFloat titleImageSpacing = (self.item.titleImageSpacing != CGFLOAT_MIN) ? self.item.titleImageSpacing : 2.0;
     
     self.titleLabel.text = self.item.title;
     self.titleLabel.font = [UIFont systemFontOfSize:(selected ? selectedFontSize : normalFontSize)];
     self.titleLabel.textColor = color;
+    self.titleTopConstraint.constant = titleImageSpacing;
     if (self.item.useOriginalRendering) {
         self.iconView.image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         self.iconView.tintColor = nil;

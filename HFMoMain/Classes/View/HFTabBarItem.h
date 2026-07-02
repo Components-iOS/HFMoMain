@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, nullable) UIColor *selectedColor;
 @property (nonatomic, assign) CGFloat normalFontSize;
 @property (nonatomic, assign) CGFloat selectedFontSize;
+@property (nonatomic, assign) CGFloat titleImageSpacing;
 @property (nonatomic, assign) CGFloat fontSize;
 @property (nonatomic, assign) BOOL useOriginalRendering;
 

@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIColor *)hf_effectiveTabbarSelectedTitleColor;
 - (CGFloat)hf_effectiveTabbarNormalFontSize;
 - (CGFloat)hf_effectiveTabbarSelectedFontSize;
+- (CGFloat)hf_effectiveTabbarTitleImageSpacing;
 
 - (void)hf_applyToNavigationBar:(HFNavBar *)navigationBar;
 - (void)hf_applyToCustomTabBar:(HFTabBar *)tabBar;

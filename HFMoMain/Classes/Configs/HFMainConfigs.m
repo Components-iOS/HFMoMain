@@ -34,6 +34,7 @@ static HFMainConfigs *_HFMainConfigs;
         _tabbarSelectedTitleColor = UIColor.systemBlueColor;
         _tabbarNormalFontSize = 11.f;
         _tabbarSelectedFontSize = 11.f;
+        _tabbarTitleImageSpacing = 2.f;
         _isTabbarSeparator = NO;
         _tabbarLiquidGlassEnabled = NO;
     }

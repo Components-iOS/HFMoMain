@@ -38,6 +38,10 @@
     return [self hf_effectiveTabbarNormalFontSize];
 }
 
+- (CGFloat)hf_effectiveTabbarTitleImageSpacing {
+    return self.tabbarTitleImageSpacing;
+}
+
 - (void)hf_applyToNavigationBar:(HFNavBar *)navigationBar {
     if (!navigationBar) {
         return;
@@ -77,6 +81,9 @@
     }
     if (item.fontSize <= 0) {
         item.fontSize = [self hf_effectiveTabbarNormalFontSize];
+    }
+    if (item.titleImageSpacing == CGFLOAT_MIN) {
+        item.titleImageSpacing = [self hf_effectiveTabbarTitleImageSpacing];
     }
 }
 

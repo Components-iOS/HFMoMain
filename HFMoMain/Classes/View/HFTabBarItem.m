@@ -14,6 +14,7 @@
         _selectedColor = nil;
         _normalFontSize = 0.0;
         _selectedFontSize = 0.0;
+        _titleImageSpacing = CGFLOAT_MIN;
         _fontSize = 0.0;
         _useOriginalRendering = YES;
     }

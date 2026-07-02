@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFMoMain'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '主结构'
   s.description      = <<-DESC
 APP主结构组件
