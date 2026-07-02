@@ -20,12 +20,17 @@
     HFMainConfigs *mainConfigs = [HFMainConfigs defaultManager];
     mainConfigs.tabbarLiquidGlassEnabled = NO;
     mainConfigs.tabbarBGColor = UIColor.whiteColor;
+    mainConfigs.tabbarNormalTitleColor = UIColor.grayColor;
+    mainConfigs.tabbarNormalFontSize = 12.f;
+    mainConfigs.tabbarSelectedTitleColor = UIColor.purpleColor;
+    mainConfigs.tabbarSelectedFontSize = 12.f;
     mainConfigs.isTabbarSeparator = YES;
     
     mainConfigs.navBarBGColor = UIColor.whiteColor;
     mainConfigs.navBarTitleColor = UIColor.orangeColor;
     mainConfigs.navBarFontSize = 17.f;
     mainConfigs.isNavBarSeparator = YES;
+    mainConfigs.tabbarTitleImageSpacing = 3;
 
     UIViewController *rootVC = [MGJRouter objectForURL:@"xmg://getRootVC"];
     
@@ -41,9 +46,9 @@
     
     [MGJRouter openURL:@"xmg://addChildVC" withUserInfo:@{
                                                           @"vc": [UIViewController new],
-                                                          @"title": @"直播",
-                                                          @"nImg": @"tabbar_icon_live_normal",
-                                                          @"sImg": @"tabbar_icon_live_selected",
+                                                          @"title": @"通讯录",
+                                                          @"nImg": @"tabbar_icon_contacts_normal",
+                                                          @"sImg": @"tabbar_icon_contacts_selected",
                                                           @"isR": @(YES)
                                                           } completion:^(id result) {
                                                               NSLog(@"%@", result);
@@ -51,9 +56,9 @@
     
     [MGJRouter openURL:@"xmg://addChildVC" withUserInfo:@{
                                                           @"vc": [UIViewController new],
-                                                          @"title": @"发现",
-                                                          @"nImg": @"tabbar_icon_findings_normal",
-                                                          @"sImg": @"tabbar_icon_findings_selected",
+                                                          @"title": @"任务",
+                                                          @"nImg": @"tabbar_icon_tasks_normal",
+                                                          @"sImg": @"tabbar_icon_tasks_selected",
                                                           @"isR": @(YES)
                                                           } completion:^(id result) {
                                                               NSLog(@"%@", result);
@@ -62,8 +67,8 @@
     [MGJRouter openURL:@"xmg://addChildVC" withUserInfo:@{
                                                           @"vc": [UIViewController new],
                                                           @"title": @"我的",
-                                                          @"nImg": @"tabbar_icon_mine_normal",
-                                                          @"sImg": @"tabbar_icon_mine_selected",
+                                                          @"nImg": @"tabbar_icon_setting_normal",
+                                                          @"sImg": @"tabbar_icon_setting_selected",
                                                           @"isR": @(YES)
                                                           } completion:^(id result) {
                                                               NSLog(@"%@", result);
