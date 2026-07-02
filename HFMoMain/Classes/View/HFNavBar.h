@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface HFNavBar : UINavigationBar
 
 @property (nonatomic, assign) BOOL hf_showsSeparator;
@@ -31,3 +33,5 @@
                        fontSize:(CGFloat)fontSize;
 
 @end
+
+NS_ASSUME_NONNULL_END

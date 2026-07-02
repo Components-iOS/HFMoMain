@@ -7,143 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0376F427E6D4B817F5958EEBA4DD0C30 /* HFNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 44ED43CCD7B0EC51CF87EBE3B9C96CAD /* HFNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037CA3D1C3721688329EE74AC7D2F4A8 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = AABE50B9A31BFDEE5C38EE57A3A8631B /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		045CE5203F3785C8F1B51158A197F409 /* Pods-HFMoMain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B810E49256EEB777D53834544F3CE981 /* Pods-HFMoMain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B422CA2B1F5F0D752E6CB224EFBCFD0 /* HFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD837EAE7D007131C45BA8FEC4046B2A /* HFNavigationViewController.m */; };
 		11312A0D86B28880EDE2BF2EFEFE2C03 /* Pods-HFMoMain_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 032F8BB0E2CC4ABF3CDC49C89BF316F4 /* Pods-HFMoMain_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		246FB2D3FB0DDE2D7CCE8A63A0302A85 /* UIViewController+HFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B358A060A57E922A64CAEA969BAAEC9B /* UIViewController+HFTabBar.m */; };
-		28436D69D35B8F87B2C4F48AECA8A32B /* HFMainConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E856B8FE7EE0AF028B55165FAD111EF /* HFMainConfigs.m */; };
-		30B0F16BC5BE89D0ABD76E34D8A23424 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = AABE50B9A31BFDEE5C38EE57A3A8631B /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33705587F83F7BA77B97719F91266B2E /* HFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8937EDEC3F62A7D9148B01C41634301B /* HFNavigationViewController.m */; };
-		398A727A398C3EF4FD1C4BDDBA8AFAD2 /* HFNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7310E267693BF2A884137E0F5262CDA9 /* HFNavBar.m */; };
-		3EF2FB249EA491337C6898B3782651D7 /* HFMoMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53430E70877EF3E283BC41C00E93AA21 /* HFMoMain-dummy.m */; };
-		4222017BCCCD2022F9A2C4C14C55D23C /* HFMainModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301ADE1D98A5145AFB198E56CBCCA46 /* HFMainModuleRouter.m */; };
+		1DF50F8DFC9490E45B3238B71555C788 /* HFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71C57DEF0760BF511ACB4FEC605083 /* HFTabBarController.m */; };
+		302F5D33A5B9002EC39EB57617993992 /* HFRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA1FC38F6DAA0060B6C201FB7422213 /* HFRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B0F6293489F89296B80A505E3083FE /* UIViewController+HFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 15439589DD906A09BCA2D9820E8E87F6 /* UIViewController+HFTabBar.m */; };
+		3C91127A720FA139A1E00FC44B915649 /* HFNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA91405B7A1F2A9551FEC433F95B0E7 /* HFNavBar.m */; };
+		3E2FE421E3FA084178A1BBFF49884B84 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6969F6F8D6C555D7FB0CAA605A53F3 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487B20C64C767C32889EAE6146476C8B /* UIViewController+HFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F01FC765EE37FC7ED0F8D493444501 /* UIViewController+HFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A4231755FA84A5B680E21C37A32E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		5431E1B92BB599B620E614ED7D81E5F7 /* HFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C56153AA54E6AD3A325E8349C45455E /* HFTabBar.m */; };
-		5C6E1FFB945FCDECEA83ED8C1C100416 /* HFNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE40401DC5EC070BCC7CA717EF7BD52 /* HFNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62A4130DAD9CEC02C09AD6C770D91403 /* HFMoMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6C348843E16E303A37588B10BA2183 /* HFMoMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63867CDE64DEF2A9DE6DA75734D4C0CD /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6969F6F8D6C555D7FB0CAA605A53F3 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7373E33F67C0F53102DF078452568B38 /* HFTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFFD8DB3A4EBB2E00B98E512B7D8EC2 /* HFTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7730326B068771EFB4D149248F14D16F /* HFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE56CFC31F991F73A9B7492C1664B2E1 /* HFTabBarController.m */; };
-		827230C81F88E61BB77C762F1EBAD332 /* HFNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B99BE452994A682551ED883B2CE46855 /* HFNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572945255BAB188086213D2247BBB9CB /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A94F47754E8595EE413250A99E608 /* CTMediator.m */; };
+		576A65A0EBD2F5300DADE31707FBD726 /* HFMainConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0D74F70051B9F59C2E18C3D19A5AF5 /* HFMainConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695EC806F9D43FE45A0CF65661052B41 /* HFMoMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5093E41F138D55A08B50DC11629F1B03 /* HFMoMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A83DC39BC3C2E5D160129A0685059E /* HFMainConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC8172B944BA46328799133E24197BE /* HFMainConfigs.m */; };
+		7B7D41B9CC1C8738A425F2771F63B109 /* HFMainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FC937DE4E3BA0C810305B3B41B6F74 /* HFMainModuleAPI.m */; };
+		7CF07C7A1737C654D91AD17957722D2B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4183181A45F5F026060D26636009E603 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EE76A2E7E7205183A91AE24E2CDF029 /* HFMainConfigs+HFStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = A69FACF1FB6361679D7763C3C6A8FA19 /* HFMainConfigs+HFStyle.m */; };
 		82A3191BC731596AEAC4E9A9DDBEF035 /* Pods-HFMoMain_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5DA01AC4822A2784EE7C577C415EA /* Pods-HFMoMain_Example-dummy.m */; };
-		8C8106C3D2B568236A64926683572C53 /* HFMainConfigs+HFStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 90194CAF8059D94791417E2B8F5EFF63 /* HFMainConfigs+HFStyle.m */; };
-		8E798A4FF39320300FB03E48FAF24431 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A87E366B0DC32D37D2CCA35963449 /* CTMediator+HandyTools.m */; };
-		91BC46BAF75B8F7B384F92E7C450C265 /* HFMainModuleRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA841BF05DD7ADAD6752056C73B3065 /* HFMainModuleRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AB5380EBA088E94DBF9D121D6FFEFA3 /* HFMainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B85C84A94790BD5E99CBFE9F7F8951D4 /* HFMainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC7A0B2E15076AF9E1F67966704E45B /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5CFFF44FC2DA3CBF92825B34C430D /* MGJRouter.m */; };
-		B2AB2BD47DC280EC726066AA96A95C40 /* HFTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922FA9E56891ACC853609927BC99521 /* HFTabBarItem.m */; };
-		B45509A559BD3AFE42A2C00057AC81A2 /* HFMainConfigs+HFStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F9521B41CCB6CA4490D93206D47D8DB /* HFMainConfigs+HFStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B64DD1A8FE87F98E7B38EC3475DF6F92 /* HFRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA1FC38F6DAA0060B6C201FB7422213 /* HFRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC57F3AFA953C1C832407710C3875A43 /* HFMainConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AE74983D00F5DBCC27E1280D759119 /* HFMainConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC6A318DB65F3DCB6DAF4587D23988FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		BD5B616D83023A3CC5678A5AE8BF1FFD /* UIViewController+HFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B36986F319C6AB9FE549C8A00BE10D /* UIViewController+HFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD7DA0EF29FF692DBF9994EC99A51BFC /* HFRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE90B08AFD9D2BA2F1BBAB527EB8F7 /* HFRouter-dummy.m */; };
-		CD6281E6BA0BB519F9CFEF08A3FD6813 /* HFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A107005D2308C9753C91A6FF77C0EE6 /* HFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		998E70B13476631BAD0A85104B953526 /* HFTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BD348F9B8119F767B2F211126BF26A /* HFTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A519A75FBF7217DF668D59611DA811E2 /* HFMainModuleRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B0FEFE2AAC326EBAF1D0AC80B1681AD1 /* HFMainModuleRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB01F1DD88135B6126D50DA22E645CF /* HFNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD400132C8C319307AD1C2A91D4A349 /* HFNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70426D1907664EF7C862079E764D224 /* HFRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEE90B08AFD9D2BA2F1BBAB527EB8F7 /* HFRouter-dummy.m */; };
+		BB28EFD0B9FD81D22FD3A48864579A34 /* HFMoMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC1947CBBEE53CBF8C41493FF94A54 /* HFMoMain-dummy.m */; };
+		BF16223BD6EFC60AFB2EE14E3E7C82B3 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A87E366B0DC32D37D2CCA35963449 /* CTMediator+HandyTools.m */; };
+		C4C0D2D55F5B50021EBCDBA312A11457 /* HFTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2479AE9E30CFFD1FF0969D76D3E532F3 /* HFTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD91E6B472D5887861FFC31F177DE6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		CDDCE1A82EDB6F385E61A7DEA1313C19 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5CFFF44FC2DA3CBF92825B34C430D /* MGJRouter.m */; };
 		D025D59668CAF8256D3D8F31087CA8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		D2388A47D53A5C9AAA5ACBD065C8D5B5 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4183181A45F5F026060D26636009E603 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18EEB36711688F3F774A82B2DDFAAB1 /* HFMainModuleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21898B9045C03034D07CADDDE5430E /* HFMainModuleRouter.m */; };
+		D510CB15F5DC3F08E57424F32B046FF0 /* HFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 478463FF6EE92DFC8503805D6633BF3F /* HFTabBar.m */; };
 		D86A7D2DBD160AF44A7C4C79C5533B36 /* Pods-HFMoMain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57774FC8EB8521B379AD6679BB7A502C /* Pods-HFMoMain_Tests-dummy.m */; };
-		DB73BD1D040F3820AA3FFD6FC671F717 /* HFTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E03DAC333B98806C24B7E5B8B86733 /* HFTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF34F3E84BB105F38249EA3CCAE94C87 /* HFMainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF25A74FED7DDB4A4C3BCB7013436AB /* HFMainModuleAPI.m */; };
-		E35E9667624E11AC7B367683E544344C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 281A94F47754E8595EE413250A99E608 /* CTMediator.m */; };
+		DBEBFEBCEFB1811203B6BDE4A303427A /* HFMainConfigs+HFStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9287F118AB3FD8733EBED4526462CD6F /* HFMainConfigs+HFStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9AD70F010491888F8828339BA972AA /* HFTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF887250664BB6ED9D81E5BB479B2D /* HFTabBarItem.m */; };
+		F2CDCA03DC043F823AF5A9A8F09A564F /* HFMainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2E728EC27C52220A99C1963236036F /* HFMainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F930695E7E65F7CE7FDE3868DA5A85D2 /* HFTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5418BA46671390E81C607A3AF7D0EC7A /* HFTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC25017F8E89E71B5065E32A3913C88D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8EFC6044C2A8C88453D7661EC72F7456 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E6097A6713A50DAD834D5298CE2B59C;
-			remoteInfo = HFRouter;
-		};
-		9D93739AF39C0180FB3B0D32AEC4FFF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE070F43E5E4F6125BF5871A896FAB8A;
-			remoteInfo = HFMoMain;
-		};
-		BC49764F5646CA84AEE04E7F06081CF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E6097A6713A50DAD834D5298CE2B59C;
-			remoteInfo = HFRouter;
-		};
-		F263924817CEC4E800CF59D3B9A0F75D /* PBXContainerItemProxy */ = {
+		38801C89E17A8A0AAC068D2C8CF759E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD4FF9FF08096CFB38A0978E1BF99448;
 			remoteInfo = "Pods-HFMoMain_Example";
 		};
+		39D877518CD1FC3DBBF1AC3F882C1483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6097A6713A50DAD834D5298CE2B59C;
+			remoteInfo = HFRouter;
+		};
+		47418E1563EBBECD428BA92453776331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE070F43E5E4F6125BF5871A896FAB8A;
+			remoteInfo = HFMoMain;
+		};
+		9F18EB8574F829C6C5D34B9BE2D1E3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6097A6713A50DAD834D5298CE2B59C;
+			remoteInfo = HFRouter;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		032F8BB0E2CC4ABF3CDC49C89BF316F4 /* Pods-HFMoMain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFMoMain_Example-umbrella.h"; sourceTree = "<group>"; };
 		09216B0F28E8B35280AF87F4C099E574 /* HFRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFRouter-prefix.pch"; sourceTree = "<group>"; };
-		0FA841BF05DD7ADAD6752056C73B3065 /* HFMainModuleRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainModuleRouter.h; path = HFMoMain/Classes/PublicAPI/HFMainModuleRouter.h; sourceTree = "<group>"; };
+		0D44BA7FA58A882C4D649BCA4DE0CE62 /* HFMoMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFMoMain.release.xcconfig; sourceTree = "<group>"; };
 		11D76D0D9B07ED780F33FCB15F4B6930 /* Pods-HFMoMain_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFMoMain_Tests"; path = Pods_HFMoMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		142A87E366B0DC32D37D2CCA35963449 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "HFRouter/Classes/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		15439589DD906A09BCA2D9820E8E87F6 /* UIViewController+HFTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HFTabBar.m"; path = "HFMoMain/Classes/Controller/UIViewController+HFTabBar.m"; sourceTree = "<group>"; };
 		18979E533241E875DC70B3CC71B8D84A /* Pods-HFMoMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFMoMain_Example.release.xcconfig"; sourceTree = "<group>"; };
-		18E03DAC333B98806C24B7E5B8B86733 /* HFTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBarController.h; path = HFMoMain/Classes/Controller/HFTabBarController.h; sourceTree = "<group>"; };
 		1A4208B78F55B1C3C214EBF6C91A58A0 /* HFRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFRouter-Info.plist"; sourceTree = "<group>"; };
-		1C56153AA54E6AD3A325E8349C45455E /* HFTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBar.m; path = HFMoMain/Classes/View/HFTabBar.m; sourceTree = "<group>"; };
 		1CEEF7CAFC4A437B5E639B7FD50C2D5D /* Pods-HFMoMain_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFMoMain_Tests-Info.plist"; sourceTree = "<group>"; };
 		1E693DD6438B051290066599C91CC35D /* Pods-HFMoMain_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFMoMain_Example-Info.plist"; sourceTree = "<group>"; };
-		1E856B8FE7EE0AF028B55165FAD111EF /* HFMainConfigs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainConfigs.m; path = HFMoMain/Classes/PublicAPI/HFMainConfigs.m; sourceTree = "<group>"; };
-		2301ADE1D98A5145AFB198E56CBCCA46 /* HFMainModuleRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainModuleRouter.m; path = HFMoMain/Classes/PublicAPI/HFMainModuleRouter.m; sourceTree = "<group>"; };
+		20FC1947CBBEE53CBF8C41493FF94A54 /* HFMoMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFMoMain-dummy.m"; sourceTree = "<group>"; };
+		22E99A3E1099E929D2B4E7715D2A6972 /* HFMoMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFMoMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2479AE9E30CFFD1FF0969D76D3E532F3 /* HFTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBarController.h; path = HFMoMain/Classes/Controller/HFTabBarController.h; sourceTree = "<group>"; };
 		281A94F47754E8595EE413250A99E608 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = HFRouter/Classes/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		2D011D486DD4CBFC5285484A4128355E /* HFMoMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFMoMain.modulemap; sourceTree = "<group>"; };
 		2DA1FC38F6DAA0060B6C201FB7422213 /* HFRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFRouter-umbrella.h"; sourceTree = "<group>"; };
-		32B36986F319C6AB9FE549C8A00BE10D /* UIViewController+HFTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HFTabBar.h"; path = "HFMoMain/Classes/Controller/UIViewController+HFTabBar.h"; sourceTree = "<group>"; };
+		2F0D74F70051B9F59C2E18C3D19A5AF5 /* HFMainConfigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainConfigs.h; path = HFMoMain/Classes/Configs/HFMainConfigs.h; sourceTree = "<group>"; };
+		381EEAB9FE15E8DF72552F6BD1DC1237 /* HFMoMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFMoMain-prefix.pch"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EB5CFFF44FC2DA3CBF92825B34C430D /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = HFRouter/Classes/MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
 		4183181A45F5F026060D26636009E603 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = HFRouter/Classes/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		44ED43CCD7B0EC51CF87EBE3B9C96CAD /* HFNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNavBar.h; path = HFMoMain/Classes/View/HFNavBar.h; sourceTree = "<group>"; };
+		478463FF6EE92DFC8503805D6633BF3F /* HFTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBar.m; path = HFMoMain/Classes/View/HFTabBar.m; sourceTree = "<group>"; };
 		495F510D55688F73A720DEE6553DEB96 /* Pods-HFMoMain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFMoMain_Tests.modulemap"; sourceTree = "<group>"; };
-		4F9521B41CCB6CA4490D93206D47D8DB /* HFMainConfigs+HFStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HFMainConfigs+HFStyle.h"; path = "HFMoMain/Classes/PublicAPI/HFMainConfigs+HFStyle.h"; sourceTree = "<group>"; };
-		53430E70877EF3E283BC41C00E93AA21 /* HFMoMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFMoMain-dummy.m"; sourceTree = "<group>"; };
+		49BD348F9B8119F767B2F211126BF26A /* HFTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBar.h; path = HFMoMain/Classes/View/HFTabBar.h; sourceTree = "<group>"; };
+		4CA91405B7A1F2A9551FEC433F95B0E7 /* HFNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNavBar.m; path = HFMoMain/Classes/View/HFNavBar.m; sourceTree = "<group>"; };
+		5093E41F138D55A08B50DC11629F1B03 /* HFMoMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFMoMain-umbrella.h"; sourceTree = "<group>"; };
+		52FC937DE4E3BA0C810305B3B41B6F74 /* HFMainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainModuleAPI.m; path = HFMoMain/Classes/PublicAPI/HFMainModuleAPI.m; sourceTree = "<group>"; };
+		5418BA46671390E81C607A3AF7D0EC7A /* HFTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBarItem.h; path = HFMoMain/Classes/View/HFTabBarItem.h; sourceTree = "<group>"; };
 		550FC973B426D34B0F525DE2BCFFC64E /* Pods-HFMoMain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFMoMain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		57774FC8EB8521B379AD6679BB7A502C /* Pods-HFMoMain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFMoMain_Tests-dummy.m"; sourceTree = "<group>"; };
 		5B94A0844C34F2BB19A9E8B91E7339E1 /* Pods-HFMoMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFMoMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F6969F6F8D6C555D7FB0CAA605A53F3 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = HFRouter/Classes/MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
-		64AA2CC6EE425323C31F943085611E34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7310E267693BF2A884137E0F5262CDA9 /* HFNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNavBar.m; path = HFMoMain/Classes/View/HFNavBar.m; sourceTree = "<group>"; };
+		6C2E728EC27C52220A99C1963236036F /* HFMainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainModuleAPI.h; path = HFMoMain/Classes/PublicAPI/HFMainModuleAPI.h; sourceTree = "<group>"; };
 		777EA2B3E1B6F0CDB84D5CF6726FFB9C /* Pods-HFMoMain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFMoMain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		790E72113F9C682923CDD71A0D8745FD /* Pods-HFMoMain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFMoMain_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7A107005D2308C9753C91A6FF77C0EE6 /* HFTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBar.h; path = HFMoMain/Classes/View/HFTabBar.h; sourceTree = "<group>"; };
 		7B7149381C820DF2D86FD75870066183 /* Pods-HFMoMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFMoMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ED5DA01AC4822A2784EE7C577C415EA /* Pods-HFMoMain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFMoMain_Example-dummy.m"; sourceTree = "<group>"; };
 		80E4D8E7664B82E9DAECA5DF2E24D29F /* Pods-HFMoMain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFMoMain_Example.modulemap"; sourceTree = "<group>"; };
-		83637E83BDD81AF8609414CA33034123 /* HFMoMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFMoMain-Info.plist"; sourceTree = "<group>"; };
-		8937EDEC3F62A7D9148B01C41634301B /* HFNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNavigationViewController.m; path = HFMoMain/Classes/Controller/HFNavigationViewController.m; sourceTree = "<group>"; };
-		90194CAF8059D94791417E2B8F5EFF63 /* HFMainConfigs+HFStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HFMainConfigs+HFStyle.m"; path = "HFMoMain/Classes/PublicAPI/HFMainConfigs+HFStyle.m"; sourceTree = "<group>"; };
-		913C4C67D95EE618EA541758853D406C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		81F01FC765EE37FC7ED0F8D493444501 /* UIViewController+HFTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HFTabBar.h"; path = "HFMoMain/Classes/Controller/UIViewController+HFTabBar.h"; sourceTree = "<group>"; };
+		89FFAD267CBCC122D181CB3212767CA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9287F118AB3FD8733EBED4526462CD6F /* HFMainConfigs+HFStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HFMainConfigs+HFStyle.h"; path = "HFMoMain/Classes/Configs/HFMainConfigs+HFStyle.h"; sourceTree = "<group>"; };
 		92DB5F5F92D7E1981F26F0B1FAF7E046 /* HFMoMain */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFMoMain; path = HFMoMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9922FA9E56891ACC853609927BC99521 /* HFTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBarItem.m; path = HFMoMain/Classes/View/HFTabBarItem.m; sourceTree = "<group>"; };
 		9A92986E699CE0F0E7C1774B2E57CA6B /* HFRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFRouter; path = HFRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AF25A74FED7DDB4A4C3BCB7013436AB /* HFMainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainModuleAPI.m; path = HFMoMain/Classes/PublicAPI/HFMainModuleAPI.m; sourceTree = "<group>"; };
-		9AFFD8DB3A4EBB2E00B98E512B7D8EC2 /* HFTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTabBarItem.h; path = HFMoMain/Classes/View/HFTabBarItem.h; sourceTree = "<group>"; };
 		9CEE90B08AFD9D2BA2F1BBAB527EB8F7 /* HFRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFRouter-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E6C348843E16E303A37588B10BA2183 /* HFMoMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFMoMain-umbrella.h"; sourceTree = "<group>"; };
+		A69FACF1FB6361679D7763C3C6A8FA19 /* HFMainConfigs+HFStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HFMainConfigs+HFStyle.m"; path = "HFMoMain/Classes/Configs/HFMainConfigs+HFStyle.m"; sourceTree = "<group>"; };
 		A87837FA6B4A6045AE5F50D2C2768253 /* HFRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFRouter.modulemap; sourceTree = "<group>"; };
 		AABE50B9A31BFDEE5C38EE57A3A8631B /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "HFRouter/Classes/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
 		ADECC912023A760DDE5A0AD5FEF77ADC /* HFRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFRouter.release.xcconfig; sourceTree = "<group>"; };
-		AE56CFC31F991F73A9B7492C1664B2E1 /* HFTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBarController.m; path = HFMoMain/Classes/Controller/HFTabBarController.m; sourceTree = "<group>"; };
-		B358A060A57E922A64CAEA969BAAEC9B /* UIViewController+HFTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HFTabBar.m"; path = "HFMoMain/Classes/Controller/UIViewController+HFTabBar.m"; sourceTree = "<group>"; };
+		B0FEFE2AAC326EBAF1D0AC80B1681AD1 /* HFMainModuleRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainModuleRouter.h; path = HFMoMain/Classes/PublicAPI/HFMainModuleRouter.h; sourceTree = "<group>"; };
+		B5704D77105EB895650B74B913E3B09C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B810E49256EEB777D53834544F3CE981 /* Pods-HFMoMain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFMoMain_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B85C84A94790BD5E99CBFE9F7F8951D4 /* HFMainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainModuleAPI.h; path = HFMoMain/Classes/PublicAPI/HFMainModuleAPI.h; sourceTree = "<group>"; };
-		B99BE452994A682551ED883B2CE46855 /* HFNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNavigationViewController.h; path = HFMoMain/Classes/Controller/HFNavigationViewController.h; sourceTree = "<group>"; };
+		BC21898B9045C03034D07CADDDE5430E /* HFMainModuleRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainModuleRouter.m; path = HFMoMain/Classes/PublicAPI/HFMainModuleRouter.m; sourceTree = "<group>"; };
 		BEA7D5581A578A936713B6991EEB7813 /* Pods-HFMoMain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFMoMain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEDF887250664BB6ED9D81E5BB479B2D /* HFTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBarItem.m; path = HFMoMain/Classes/View/HFTabBarItem.m; sourceTree = "<group>"; };
+		BFD400132C8C319307AD1C2A91D4A349 /* HFNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNavigationViewController.h; path = HFMoMain/Classes/Controller/HFNavigationViewController.h; sourceTree = "<group>"; };
+		CAC1F1E9F33856FE131E1CE570EA824F /* HFMoMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFMoMain.modulemap; sourceTree = "<group>"; };
+		CF71C57DEF0760BF511ACB4FEC605083 /* HFTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTabBarController.m; path = HFMoMain/Classes/Controller/HFTabBarController.m; sourceTree = "<group>"; };
 		D427FD2A7AB1B3AB6DB1130AF2282040 /* HFRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFRouter.debug.xcconfig; sourceTree = "<group>"; };
-		D648975C95B4AFA395BB2D7078B74580 /* HFMoMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFMoMain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8E4F60C675BFEB7EB7EB7EA31F2BE13 /* Pods-HFMoMain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFMoMain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA61B0749C639E085A88718857061A66 /* HFMoMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFMoMain-prefix.pch"; sourceTree = "<group>"; };
-		E1AE74983D00F5DBCC27E1280D759119 /* HFMainConfigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMainConfigs.h; path = HFMoMain/Classes/PublicAPI/HFMainConfigs.h; sourceTree = "<group>"; };
+		DD837EAE7D007131C45BA8FEC4046B2A /* HFNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFNavigationViewController.m; path = HFMoMain/Classes/Controller/HFNavigationViewController.m; sourceTree = "<group>"; };
 		E21967FD0C407950DE773EA8927FC25A /* Pods-HFMoMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFMoMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E578B967924E9642DB757DA86AE4A06C /* HFMoMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFMoMain.debug.xcconfig; sourceTree = "<group>"; };
-		EEE40401DC5EC070BCC7CA717EF7BD52 /* HFNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFNavBar.h; path = HFMoMain/Classes/View/HFNavBar.h; sourceTree = "<group>"; };
-		F5B904F9FBF95C85137AFF8A280FE2E7 /* HFMoMain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFMoMain.release.xcconfig; sourceTree = "<group>"; };
+		E7EA522C3C6096C52B7DCFAD4543F832 /* HFMoMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFMoMain-Info.plist"; sourceTree = "<group>"; };
+		ECC8172B944BA46328799133E24197BE /* HFMainConfigs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMainConfigs.m; path = HFMoMain/Classes/Configs/HFMainConfigs.m; sourceTree = "<group>"; };
+		F5552DBF3E09526883EC94A6D1E1C96C /* HFMoMain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFMoMain.debug.xcconfig; sourceTree = "<group>"; };
 		FF159B0926072CF89F733092E3703D71 /* Pods-HFMoMain_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFMoMain_Example"; path = Pods_HFMoMain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -164,19 +164,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C1A7B014A12516B2277EAD2C974B472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC25017F8E89E71B5065E32A3913C88D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F3009A8D8603DE496FB4CAC0C4F1034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D025D59668CAF8256D3D8F31087CA8FC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0694617F7F674EFD0BFFA9BE515C84E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC6A318DB65F3DCB6DAF4587D23988FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,14 +192,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		246EE11C5F019A39416D7932D38F5F65 /* Pod */ = {
+		2330031CE6E55DF498C9E395ADDBAEA2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D648975C95B4AFA395BB2D7078B74580 /* HFMoMain.podspec */,
-				913C4C67D95EE618EA541758853D406C /* LICENSE */,
-				64AA2CC6EE425323C31F943085611E34 /* README.md */,
+				68E25D0B9534B5DCF624A846F4B68414 /* HFMoMain */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		27CA47F61F1EB68A3007411F6BF4CF94 /* Pods */ = {
@@ -236,34 +234,67 @@
 			path = "../Target Support Files/HFRouter";
 			sourceTree = "<group>";
 		};
-		3C1B1F4C8D50CB2F8837D9F7BCFBF693 /* Support Files */ = {
+		3C8B67E55DE5CD7485D304DA945C4AE4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2D011D486DD4CBFC5285484A4128355E /* HFMoMain.modulemap */,
-				53430E70877EF3E283BC41C00E93AA21 /* HFMoMain-dummy.m */,
-				83637E83BDD81AF8609414CA33034123 /* HFMoMain-Info.plist */,
-				DA61B0749C639E085A88718857061A66 /* HFMoMain-prefix.pch */,
-				9E6C348843E16E303A37588B10BA2183 /* HFMoMain-umbrella.h */,
-				E578B967924E9642DB757DA86AE4A06C /* HFMoMain.debug.xcconfig */,
-				F5B904F9FBF95C85137AFF8A280FE2E7 /* HFMoMain.release.xcconfig */,
+				BFD400132C8C319307AD1C2A91D4A349 /* HFNavigationViewController.h */,
+				DD837EAE7D007131C45BA8FEC4046B2A /* HFNavigationViewController.m */,
+				2479AE9E30CFFD1FF0969D76D3E532F3 /* HFTabBarController.h */,
+				CF71C57DEF0760BF511ACB4FEC605083 /* HFTabBarController.m */,
+				81F01FC765EE37FC7ED0F8D493444501 /* UIViewController+HFTabBar.h */,
+				15439589DD906A09BCA2D9820E8E87F6 /* UIViewController+HFTabBar.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41B80BDBBFE0E1BE5E6F45D11DEBC7FF /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E728EC27C52220A99C1963236036F /* HFMainModuleAPI.h */,
+				52FC937DE4E3BA0C810305B3B41B6F74 /* HFMainModuleAPI.m */,
+				B0FEFE2AAC326EBAF1D0AC80B1681AD1 /* HFMainModuleRouter.h */,
+				BC21898B9045C03034D07CADDDE5430E /* HFMainModuleRouter.m */,
+			);
+			name = PublicAPI;
+			sourceTree = "<group>";
+		};
+		535259EAF95094EC773C6DD5E86EEB0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC1F1E9F33856FE131E1CE570EA824F /* HFMoMain.modulemap */,
+				20FC1947CBBEE53CBF8C41493FF94A54 /* HFMoMain-dummy.m */,
+				E7EA522C3C6096C52B7DCFAD4543F832 /* HFMoMain-Info.plist */,
+				381EEAB9FE15E8DF72552F6BD1DC1237 /* HFMoMain-prefix.pch */,
+				5093E41F138D55A08B50DC11629F1B03 /* HFMoMain-umbrella.h */,
+				F5552DBF3E09526883EC94A6D1E1C96C /* HFMoMain.debug.xcconfig */,
+				0D44BA7FA58A882C4D649BCA4DE0CE62 /* HFMoMain.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HFMoMain";
 			sourceTree = "<group>";
 		};
-		54F6BDA6A4750CAD6BD9264E7176B85F /* PublicAPI */ = {
+		68E25D0B9534B5DCF624A846F4B68414 /* HFMoMain */ = {
 			isa = PBXGroup;
 			children = (
-				E1AE74983D00F5DBCC27E1280D759119 /* HFMainConfigs.h */,
-				1E856B8FE7EE0AF028B55165FAD111EF /* HFMainConfigs.m */,
-				4F9521B41CCB6CA4490D93206D47D8DB /* HFMainConfigs+HFStyle.h */,
-				90194CAF8059D94791417E2B8F5EFF63 /* HFMainConfigs+HFStyle.m */,
-				B85C84A94790BD5E99CBFE9F7F8951D4 /* HFMainModuleAPI.h */,
-				9AF25A74FED7DDB4A4C3BCB7013436AB /* HFMainModuleAPI.m */,
-				0FA841BF05DD7ADAD6752056C73B3065 /* HFMainModuleRouter.h */,
-				2301ADE1D98A5145AFB198E56CBCCA46 /* HFMainModuleRouter.m */,
+				BE17C182220F71F5C72C74C047D0EFC4 /* Configs */,
+				3C8B67E55DE5CD7485D304DA945C4AE4 /* Controller */,
+				94058C6AB4B5050574AD4AFE60779C20 /* Pod */,
+				41B80BDBBFE0E1BE5E6F45D11DEBC7FF /* PublicAPI */,
+				535259EAF95094EC773C6DD5E86EEB0E /* Support Files */,
+				D814CEB1ED9AB54CD230EB79FF470905 /* View */,
 			);
-			name = PublicAPI;
+			name = HFMoMain;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		94058C6AB4B5050574AD4AFE60779C20 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				22E99A3E1099E929D2B4E7715D2A6972 /* HFMoMain.podspec */,
+				B5704D77105EB895650B74B913E3B09C /* LICENSE */,
+				89FFAD267CBCC122D181CB3212767CA3 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9F8C57FF1B7DCCCA3470933211C32BD8 /* Pods-HFMoMain_Example */ = {
@@ -283,12 +314,15 @@
 			path = "Target Support Files/Pods-HFMoMain_Example";
 			sourceTree = "<group>";
 		};
-		B073E4BEFEEA966258DF5BFDB27D7572 /* Development Pods */ = {
+		BE17C182220F71F5C72C74C047D0EFC4 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				F8F207420FA112B7B2AC9CBFF518C936 /* HFMoMain */,
+				2F0D74F70051B9F59C2E18C3D19A5AF5 /* HFMainConfigs.h */,
+				ECC8172B944BA46328799133E24197BE /* HFMainConfigs.m */,
+				9287F118AB3FD8733EBED4526462CD6F /* HFMainConfigs+HFStyle.h */,
+				A69FACF1FB6361679D7763C3C6A8FA19 /* HFMainConfigs+HFStyle.m */,
 			);
-			name = "Development Pods";
+			name = Configs;
 			sourceTree = "<group>";
 		};
 		C2EDDA67867B08C7C6E283A2EB4E48E7 /* Products */ = {
@@ -317,7 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B073E4BEFEEA966258DF5BFDB27D7572 /* Development Pods */,
+				2330031CE6E55DF498C9E395ADDBAEA2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				27CA47F61F1EB68A3007411F6BF4CF94 /* Pods */,
 				C2EDDA67867B08C7C6E283A2EB4E48E7 /* Products */,
@@ -333,17 +367,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D88D2B1ACB6FD185B4F82F3867F6F2D2 /* Controller */ = {
+		D814CEB1ED9AB54CD230EB79FF470905 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B99BE452994A682551ED883B2CE46855 /* HFNavigationViewController.h */,
-				8937EDEC3F62A7D9148B01C41634301B /* HFNavigationViewController.m */,
-				18E03DAC333B98806C24B7E5B8B86733 /* HFTabBarController.h */,
-				AE56CFC31F991F73A9B7492C1664B2E1 /* HFTabBarController.m */,
-				32B36986F319C6AB9FE549C8A00BE10D /* UIViewController+HFTabBar.h */,
-				B358A060A57E922A64CAEA969BAAEC9B /* UIViewController+HFTabBar.m */,
+				44ED43CCD7B0EC51CF87EBE3B9C96CAD /* HFNavBar.h */,
+				4CA91405B7A1F2A9551FEC433F95B0E7 /* HFNavBar.m */,
+				49BD348F9B8119F767B2F211126BF26A /* HFTabBar.h */,
+				478463FF6EE92DFC8503805D6633BF3F /* HFTabBar.m */,
+				5418BA46671390E81C607A3AF7D0EC7A /* HFTabBarItem.h */,
+				BEDF887250664BB6ED9D81E5BB479B2D /* HFTabBarItem.m */,
 			);
-			name = Controller;
+			name = View;
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -370,19 +404,6 @@
 			path = "Target Support Files/Pods-HFMoMain_Tests";
 			sourceTree = "<group>";
 		};
-		F8F207420FA112B7B2AC9CBFF518C936 /* HFMoMain */ = {
-			isa = PBXGroup;
-			children = (
-				D88D2B1ACB6FD185B4F82F3867F6F2D2 /* Controller */,
-				246EE11C5F019A39416D7932D38F5F65 /* Pod */,
-				54F6BDA6A4750CAD6BD9264E7176B85F /* PublicAPI */,
-				3C1B1F4C8D50CB2F8837D9F7BCFBF693 /* Support Files */,
-				FA07C7B5E06AE70487BD48F875E43EA4 /* View */,
-			);
-			name = HFMoMain;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		F98379B967244473EDBF68AC8F8F61F3 /* MGJRouter */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,48 +413,35 @@
 			name = MGJRouter;
 			sourceTree = "<group>";
 		};
-		FA07C7B5E06AE70487BD48F875E43EA4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EEE40401DC5EC070BCC7CA717EF7BD52 /* HFNavBar.h */,
-				7310E267693BF2A884137E0F5262CDA9 /* HFNavBar.m */,
-				7A107005D2308C9753C91A6FF77C0EE6 /* HFTabBar.h */,
-				1C56153AA54E6AD3A325E8349C45455E /* HFTabBar.m */,
-				9AFFD8DB3A4EBB2E00B98E512B7D8EC2 /* HFTabBarItem.h */,
-				9922FA9E56891ACC853609927BC99521 /* HFTabBarItem.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26294DD1D8465C269A5ACC90A2691796 /* Headers */ = {
+		43AC2AD3C83B2CE53D0F530610BA5D02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC57F3AFA953C1C832407710C3875A43 /* HFMainConfigs.h in Headers */,
-				B45509A559BD3AFE42A2C00057AC81A2 /* HFMainConfigs+HFStyle.h in Headers */,
-				9AB5380EBA088E94DBF9D121D6FFEFA3 /* HFMainModuleAPI.h in Headers */,
-				91BC46BAF75B8F7B384F92E7C450C265 /* HFMainModuleRouter.h in Headers */,
-				62A4130DAD9CEC02C09AD6C770D91403 /* HFMoMain-umbrella.h in Headers */,
-				5C6E1FFB945FCDECEA83ED8C1C100416 /* HFNavBar.h in Headers */,
-				827230C81F88E61BB77C762F1EBAD332 /* HFNavigationViewController.h in Headers */,
-				CD6281E6BA0BB519F9CFEF08A3FD6813 /* HFTabBar.h in Headers */,
-				DB73BD1D040F3820AA3FFD6FC671F717 /* HFTabBarController.h in Headers */,
-				7373E33F67C0F53102DF078452568B38 /* HFTabBarItem.h in Headers */,
-				BD5B616D83023A3CC5678A5AE8BF1FFD /* UIViewController+HFTabBar.h in Headers */,
+				7CF07C7A1737C654D91AD17957722D2B /* CTMediator.h in Headers */,
+				037CA3D1C3721688329EE74AC7D2F4A8 /* CTMediator+HandyTools.h in Headers */,
+				302F5D33A5B9002EC39EB57617993992 /* HFRouter-umbrella.h in Headers */,
+				3E2FE421E3FA084178A1BBFF49884B84 /* MGJRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A503617A4C276D4F3A7EA2DBE48DAFBA /* Headers */ = {
+		7D28C3F8FB0468216C67500F0809F028 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2388A47D53A5C9AAA5ACBD065C8D5B5 /* CTMediator.h in Headers */,
-				30B0F16BC5BE89D0ABD76E34D8A23424 /* CTMediator+HandyTools.h in Headers */,
-				B64DD1A8FE87F98E7B38EC3475DF6F92 /* HFRouter-umbrella.h in Headers */,
-				63867CDE64DEF2A9DE6DA75734D4C0CD /* MGJRouter.h in Headers */,
+				576A65A0EBD2F5300DADE31707FBD726 /* HFMainConfigs.h in Headers */,
+				DBEBFEBCEFB1811203B6BDE4A303427A /* HFMainConfigs+HFStyle.h in Headers */,
+				F2CDCA03DC043F823AF5A9A8F09A564F /* HFMainModuleAPI.h in Headers */,
+				A519A75FBF7217DF668D59611DA811E2 /* HFMainModuleRouter.h in Headers */,
+				695EC806F9D43FE45A0CF65661052B41 /* HFMoMain-umbrella.h in Headers */,
+				0376F427E6D4B817F5958EEBA4DD0C30 /* HFNavBar.h in Headers */,
+				ADB01F1DD88135B6126D50DA22E645CF /* HFNavigationViewController.h in Headers */,
+				998E70B13476631BAD0A85104B953526 /* HFTabBar.h in Headers */,
+				C4C0D2D55F5B50021EBCDBA312A11457 /* HFTabBarController.h in Headers */,
+				F930695E7E65F7CE7FDE3868DA5A85D2 /* HFTabBarItem.h in Headers */,
+				487B20C64C767C32889EAE6146476C8B /* UIViewController+HFTabBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,12 +466,12 @@
 /* Begin PBXNativeTarget section */
 		5E6097A6713A50DAD834D5298CE2B59C /* HFRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 599C8D035EA94070C072BAE390DA0C58 /* Build configuration list for PBXNativeTarget "HFRouter" */;
+			buildConfigurationList = 286660C70A18EE67F4D725539F0D605E /* Build configuration list for PBXNativeTarget "HFRouter" */;
 			buildPhases = (
-				A503617A4C276D4F3A7EA2DBE48DAFBA /* Headers */,
-				6FF059430D4B7628EB9EEF1F49760294 /* Sources */,
-				E0694617F7F674EFD0BFFA9BE515C84E /* Frameworks */,
-				02CC48A7E7F41FD509A0A611E2A23DEB /* Resources */,
+				43AC2AD3C83B2CE53D0F530610BA5D02 /* Headers */,
+				54C3460DC5C8E8046DFB2AFA8DBE3B8B /* Sources */,
+				7C1A7B014A12516B2277EAD2C974B472 /* Frameworks */,
+				7BCA4FA28F48BECCE8ED9D30EE88A360 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -486,7 +494,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A0638AB5B80ED0ECD9956BEC2919885 /* PBXTargetDependency */,
+				79C75FFF000AA1E16491AC67B4954193 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFMoMain_Tests";
 			productName = Pods_HFMoMain_Tests;
@@ -505,8 +513,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4D38CF9CEB24BAF60EDC19B80C9A77E4 /* PBXTargetDependency */,
-				2E9BD1C5FFF524865A969764263BEDB2 /* PBXTargetDependency */,
+				1F5EF8F4C1DFB7B5BC7D5892EE4FC087 /* PBXTargetDependency */,
+				4C6FBF11BD68C323B794DCCE2CD6BDA7 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFMoMain_Example";
 			productName = Pods_HFMoMain_Example;
@@ -517,15 +525,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA8FA0F6174800E269ADDF647DBD3265 /* Build configuration list for PBXNativeTarget "HFMoMain" */;
 			buildPhases = (
-				26294DD1D8465C269A5ACC90A2691796 /* Headers */,
-				70823BC74C7910B20D4547E190AC27E3 /* Sources */,
+				7D28C3F8FB0468216C67500F0809F028 /* Headers */,
+				BE19728B9CA40D55031D9B472496266E /* Sources */,
 				51E7ED5B942111C3BBCBE9EFDB76773C /* Frameworks */,
 				8DE5E09949F565C75C234199D8067623 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3D9202BA154703C5D12E930A1FD4E93B /* PBXTargetDependency */,
+				4F1205BEF0072DA1749DC40DE4A1F052 /* PBXTargetDependency */,
 			);
 			name = HFMoMain;
 			productName = HFMoMain;
@@ -565,7 +573,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02CC48A7E7F41FD509A0A611E2A23DEB /* Resources */ = {
+		7BCA4FA28F48BECCE8ED9D30EE88A360 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -596,32 +604,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6FF059430D4B7628EB9EEF1F49760294 /* Sources */ = {
+		54C3460DC5C8E8046DFB2AFA8DBE3B8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35E9667624E11AC7B367683E544344C /* CTMediator.m in Sources */,
-				8E798A4FF39320300FB03E48FAF24431 /* CTMediator+HandyTools.m in Sources */,
-				BD7DA0EF29FF692DBF9994EC99A51BFC /* HFRouter-dummy.m in Sources */,
-				AAC7A0B2E15076AF9E1F67966704E45B /* MGJRouter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70823BC74C7910B20D4547E190AC27E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28436D69D35B8F87B2C4F48AECA8A32B /* HFMainConfigs.m in Sources */,
-				8C8106C3D2B568236A64926683572C53 /* HFMainConfigs+HFStyle.m in Sources */,
-				DF34F3E84BB105F38249EA3CCAE94C87 /* HFMainModuleAPI.m in Sources */,
-				4222017BCCCD2022F9A2C4C14C55D23C /* HFMainModuleRouter.m in Sources */,
-				3EF2FB249EA491337C6898B3782651D7 /* HFMoMain-dummy.m in Sources */,
-				398A727A398C3EF4FD1C4BDDBA8AFAD2 /* HFNavBar.m in Sources */,
-				33705587F83F7BA77B97719F91266B2E /* HFNavigationViewController.m in Sources */,
-				5431E1B92BB599B620E614ED7D81E5F7 /* HFTabBar.m in Sources */,
-				7730326B068771EFB4D149248F14D16F /* HFTabBarController.m in Sources */,
-				B2AB2BD47DC280EC726066AA96A95C40 /* HFTabBarItem.m in Sources */,
-				246FB2D3FB0DDE2D7CCE8A63A0302A85 /* UIViewController+HFTabBar.m in Sources */,
+				572945255BAB188086213D2247BBB9CB /* CTMediator.m in Sources */,
+				BF16223BD6EFC60AFB2EE14E3E7C82B3 /* CTMediator+HandyTools.m in Sources */,
+				B70426D1907664EF7C862079E764D224 /* HFRouter-dummy.m in Sources */,
+				CDDCE1A82EDB6F385E61A7DEA1313C19 /* MGJRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +620,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86A7D2DBD160AF44A7C4C79C5533B36 /* Pods-HFMoMain_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE19728B9CA40D55031D9B472496266E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A83DC39BC3C2E5D160129A0685059E /* HFMainConfigs.m in Sources */,
+				7EE76A2E7E7205183A91AE24E2CDF029 /* HFMainConfigs+HFStyle.m in Sources */,
+				7B7D41B9CC1C8738A425F2771F63B109 /* HFMainModuleAPI.m in Sources */,
+				D18EEB36711688F3F774A82B2DDFAAB1 /* HFMainModuleRouter.m in Sources */,
+				BB28EFD0B9FD81D22FD3A48864579A34 /* HFMoMain-dummy.m in Sources */,
+				3C91127A720FA139A1E00FC44B915649 /* HFNavBar.m in Sources */,
+				0B422CA2B1F5F0D752E6CB224EFBCFD0 /* HFNavigationViewController.m in Sources */,
+				D510CB15F5DC3F08E57424F32B046FF0 /* HFTabBar.m in Sources */,
+				1DF50F8DFC9490E45B3238B71555C788 /* HFTabBarController.m in Sources */,
+				EB9AD70F010491888F8828339BA972AA /* HFTabBarItem.m in Sources */,
+				33B0F6293489F89296B80A505E3083FE /* UIViewController+HFTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,36 +652,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E9BD1C5FFF524865A969764263BEDB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HFRouter;
-			target = 5E6097A6713A50DAD834D5298CE2B59C /* HFRouter */;
-			targetProxy = BC49764F5646CA84AEE04E7F06081CF6 /* PBXContainerItemProxy */;
-		};
-		3A0638AB5B80ED0ECD9956BEC2919885 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HFMoMain_Example";
-			target = FD4FF9FF08096CFB38A0978E1BF99448 /* Pods-HFMoMain_Example */;
-			targetProxy = F263924817CEC4E800CF59D3B9A0F75D /* PBXContainerItemProxy */;
-		};
-		3D9202BA154703C5D12E930A1FD4E93B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HFRouter;
-			target = 5E6097A6713A50DAD834D5298CE2B59C /* HFRouter */;
-			targetProxy = 8EFC6044C2A8C88453D7661EC72F7456 /* PBXContainerItemProxy */;
-		};
-		4D38CF9CEB24BAF60EDC19B80C9A77E4 /* PBXTargetDependency */ = {
+		1F5EF8F4C1DFB7B5BC7D5892EE4FC087 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HFMoMain;
 			target = FE070F43E5E4F6125BF5871A896FAB8A /* HFMoMain */;
-			targetProxy = 9D93739AF39C0180FB3B0D32AEC4FFF6 /* PBXContainerItemProxy */;
+			targetProxy = 47418E1563EBBECD428BA92453776331 /* PBXContainerItemProxy */;
+		};
+		4C6FBF11BD68C323B794DCCE2CD6BDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFRouter;
+			target = 5E6097A6713A50DAD834D5298CE2B59C /* HFRouter */;
+			targetProxy = 9F18EB8574F829C6C5D34B9BE2D1E3A4 /* PBXContainerItemProxy */;
+		};
+		4F1205BEF0072DA1749DC40DE4A1F052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFRouter;
+			target = 5E6097A6713A50DAD834D5298CE2B59C /* HFRouter */;
+			targetProxy = 39D877518CD1FC3DBBF1AC3F882C1483 /* PBXContainerItemProxy */;
+		};
+		79C75FFF000AA1E16491AC67B4954193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HFMoMain_Example";
+			target = FD4FF9FF08096CFB38A0978E1BF99448 /* Pods-HFMoMain_Example */;
+			targetProxy = 38801C89E17A8A0AAC068D2C8CF759E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		62F401D35601B3656378AA71FE586D45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5B904F9FBF95C85137AFF8A280FE2E7 /* HFMoMain.release.xcconfig */;
+			baseConfigurationReference = 0D44BA7FA58A882C4D649BCA4DE0CE62 /* HFMoMain.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -708,7 +716,7 @@
 			};
 			name = Release;
 		};
-		64C275E70F0FC360CF408FD05BEDA3B3 /* Release */ = {
+		6A5A114850E967D744D229A42D4CAA6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADECC912023A760DDE5A0AD5FEF77ADC /* HFRouter.release.xcconfig */;
 			buildSettings = {
@@ -813,7 +821,7 @@
 		};
 		8DFF6A9B9033851E7688261C6E187AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E578B967924E9642DB757DA86AE4A06C /* HFMoMain.debug.xcconfig */;
+			baseConfigurationReference = F5552DBF3E09526883EC94A6D1E1C96C /* HFMoMain.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -982,6 +990,42 @@
 			};
 			name = Debug;
 		};
+		C6D2E87A9A904A1FC8DE05CA159AD702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D427FD2A7AB1B3AB6DB1130AF2282040 /* HFRouter.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/HFRouter/HFRouter-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/HFRouter/HFRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFRouter/HFRouter.modulemap";
+				PRODUCT_MODULE_NAME = HFRouter;
+				PRODUCT_NAME = HFRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D9E6D0D9C7B45E3CF78D16FD0E6F8A69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E21967FD0C407950DE773EA8927FC25A /* Pods-HFMoMain_Tests.release.xcconfig */;
@@ -1055,42 +1099,6 @@
 			};
 			name = Debug;
 		};
-		F90BEADF08736639DBD80806D923598C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D427FD2A7AB1B3AB6DB1130AF2282040 /* HFRouter.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/HFRouter/HFRouter-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/HFRouter/HFRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFRouter/HFRouter.modulemap";
-				PRODUCT_MODULE_NAME = HFRouter;
-				PRODUCT_NAME = HFRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1103,20 +1111,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		286660C70A18EE67F4D725539F0D605E /* Build configuration list for PBXNativeTarget "HFRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D2E87A9A904A1FC8DE05CA159AD702 /* Debug */,
+				6A5A114850E967D744D229A42D4CAA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		599C8D035EA94070C072BAE390DA0C58 /* Build configuration list for PBXNativeTarget "HFRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F90BEADF08736639DBD80806D923598C /* Debug */,
-				64C275E70F0FC360CF408FD05BEDA3B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

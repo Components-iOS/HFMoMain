@@ -22,12 +22,17 @@ APP主结构组件
   s.subspec 'PublicAPI' do |p|
       p.source_files = 'HFMoMain/Classes/PublicAPI/**/*'
       p.dependency 'HFMoMain/Controller'
-      p.dependency 'HFMoMain/View'
   end
   
   s.subspec 'Controller' do |c|
       c.source_files = 'HFMoMain/Classes/Controller/**/*'
       c.dependency 'HFMoMain/View'
+      c.dependency 'HFMoMain/Configs'
+  end
+  
+  s.subspec 'Configs' do |cs|
+      cs.source_files = 'HFMoMain/Classes/Configs/**/*'
+      cs.dependency 'HFMoMain/View'
   end
   
   s.subspec 'View' do |v|

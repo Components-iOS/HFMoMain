@@ -10,11 +10,11 @@
 #endif
 #endif
 
+#import "HFMainConfigs+HFStyle.h"
+#import "HFMainConfigs.h"
 #import "HFNavigationViewController.h"
 #import "HFTabBarController.h"
 #import "UIViewController+HFTabBar.h"
-#import "HFMainConfigs+HFStyle.h"
-#import "HFMainConfigs.h"
 #import "HFMainModuleAPI.h"
 #import "HFMainModuleRouter.h"
 #import "HFNavBar.h"

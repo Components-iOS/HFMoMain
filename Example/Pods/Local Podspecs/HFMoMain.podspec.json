@@ -28,13 +28,20 @@
       "name": "PublicAPI",
       "source_files": "HFMoMain/Classes/PublicAPI/**/*",
       "dependencies": {
-        "HFMoMain/Controller": [],
-        "HFMoMain/View": []
+        "HFMoMain/Controller": []
       }
     },
     {
       "name": "Controller",
       "source_files": "HFMoMain/Classes/Controller/**/*",
+      "dependencies": {
+        "HFMoMain/View": [],
+        "HFMoMain/Configs": []
+      }
+    },
+    {
+      "name": "Configs",
+      "source_files": "HFMoMain/Classes/Configs/**/*",
       "dependencies": {
         "HFMoMain/View": []
       }
