@@ -5,6 +5,7 @@
 
 static const void *kHFTabBarItemKey = &kHFTabBarItemKey;
 static const void *kHFHidesBottomBarWhenPushedKey = &kHFHidesBottomBarWhenPushedKey;
+static const void *kHFHasConfiguredHidesBottomBarWhenPushedKey = &kHFHasConfiguredHidesBottomBarWhenPushedKey;
 
 @implementation UIViewController (HFTabBar)
 
@@ -18,6 +19,7 @@ static const void *kHFHidesBottomBarWhenPushedKey = &kHFHidesBottomBarWhenPushed
 
 - (void)setHf_hidesBottomBarWhenPushed:(BOOL)hf_hidesBottomBarWhenPushed {
     objc_setAssociatedObject(self, kHFHidesBottomBarWhenPushedKey, @(hf_hidesBottomBarWhenPushed), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, kHFHasConfiguredHidesBottomBarWhenPushedKey, @(YES), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (BOOL)hf_hidesBottomBarWhenPushed {
@@ -38,6 +40,11 @@ static const void *kHFHidesBottomBarWhenPushedKey = &kHFHidesBottomBarWhenPushed
 
 - (void)hf_bindTabBarItem:(HFTabBarItem *)item {
     self.hf_tabBarItem = item;
+}
+
+- (BOOL)hf_hasConfiguredHidesBottomBarWhenPushed {
+    NSNumber *value = objc_getAssociatedObject(self, kHFHasConfiguredHidesBottomBarWhenPushedKey);
+    return value.boolValue;
 }
 
 @end

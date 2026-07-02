@@ -58,10 +58,15 @@
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (self.viewControllers.count == 1) {
-        viewController.hf_hidesBottomBarWhenPushed = YES;
-    } else {
-        viewController.hf_hidesBottomBarWhenPushed = NO;
+    if (![viewController hf_hasConfiguredHidesBottomBarWhenPushed]) {
+        UIViewController *currentTopViewController = self.topViewController;
+        BOOL shouldHideBottomBar = (self.viewControllers.count == 1);
+        
+        if (!shouldHideBottomBar && currentTopViewController) {
+            shouldHideBottomBar = currentTopViewController.hf_hidesBottomBarWhenPushed;
+        }
+        
+        viewController.hf_hidesBottomBarWhenPushed = shouldHideBottomBar;
     }
         
     [super pushViewController:viewController animated:animated];

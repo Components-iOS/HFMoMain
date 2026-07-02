@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, readonly, nullable) HFTabBarController *hf_tabBarController;
 
 - (void)hf_bindTabBarItem:(nullable HFTabBarItem *)item;
+- (BOOL)hf_hasConfiguredHidesBottomBarWhenPushed;
 
 @end
 
