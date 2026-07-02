@@ -7,6 +7,10 @@
 
 #import "HFNavigationViewController.h"
 #import "HFNavBar.h"
+#import "HFMainConfigs.h"
+#import "HFMainConfigs+HFStyle.h"
+#import "HFTabBarController.h"
+#import "UIViewController+HFTabBar.h"
 
 @interface HFNavigationViewController () <UIGestureRecognizerDelegate>
 
@@ -16,9 +20,11 @@
 
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     if (self = [super initWithRootViewController:rootViewController]) {
-        [HFNavBar setGlobalBackGroundColor:UIColor.whiteColor];
-        [HFNavBar setGlobalTextColor:UIColor.redColor andFontSize:17.f];
-        [self setValue:[HFNavBar new] forKey:@"navigationBar"];
+        HFMainConfigs *mainConfigs = [HFMainConfigs defaultManager];
+
+        HFNavBar *navigationBar = [HFNavBar new];
+        [mainConfigs hf_applyToNavigationBar:navigationBar];
+        [self setValue:navigationBar forKey:@"navigationBar"];
     }
     return self;
 }
@@ -46,14 +52,51 @@
     self.navigationBar.translucent = NO;
 }
 
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    [self hf_notifyTabBarControllerIfNeededAnimated:NO];
+}
+
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count == 1) {
-        viewController.hidesBottomBarWhenPushed = YES;
+        viewController.hf_hidesBottomBarWhenPushed = YES;
     } else {
-        viewController.hidesBottomBarWhenPushed = NO;
+        viewController.hf_hidesBottomBarWhenPushed = NO;
     }
         
     [super pushViewController:viewController animated:animated];
+    [self hf_notifyTabBarControllerIfNeededAnimated:animated];
+}
+
+- (UIViewController *)popViewControllerAnimated:(BOOL)animated {
+    UIViewController *viewController = [super popViewControllerAnimated:animated];
+    [self hf_notifyTabBarControllerIfNeededAnimated:animated];
+    return viewController;
+}
+
+- (NSArray<__kindof UIViewController *> *)popToRootViewControllerAnimated:(BOOL)animated {
+    NSArray<__kindof UIViewController *> *viewControllers = [super popToRootViewControllerAnimated:animated];
+    [self hf_notifyTabBarControllerIfNeededAnimated:animated];
+    return viewControllers;
+}
+
+- (NSArray<__kindof UIViewController *> *)popToViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    NSArray<__kindof UIViewController *> *viewControllers = [super popToViewController:viewController animated:animated];
+    [self hf_notifyTabBarControllerIfNeededAnimated:animated];
+    return viewControllers;
+}
+
+- (void)setViewControllers:(NSArray<UIViewController *> *)viewControllers animated:(BOOL)animated {
+    [super setViewControllers:viewControllers animated:animated];
+    [self hf_notifyTabBarControllerIfNeededAnimated:animated];
+}
+
+- (void)hf_notifyTabBarControllerIfNeededAnimated:(BOOL)animated {
+    HFTabBarController *tabBarController = self.hf_tabBarController;
+    if (!tabBarController) {
+        return;
+    }
+    [tabBarController hf_selectedNavigationStateDidChangeAnimated:animated];
 }
 
 - (UIViewController *)childViewControllerForStatusBarStyle {

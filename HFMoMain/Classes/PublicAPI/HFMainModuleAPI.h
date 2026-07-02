@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "HFTabBarController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @return rootTabBarCcontroller
  */
-+ (UITabBarController *)rootTabBarCcontroller;
++ (HFTabBarController *)rootTabBarCcontroller;
 
 /**
  * 添加子控制器

@@ -10,13 +10,24 @@
 #import "HFViewController.h"
 
 #import <HFRouter/MGJRouter.h>
+#import <HFMoMain/HFMainConfigs.h>
 
 @implementation HFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIViewController *rootVC = [MGJRouter objectForURL:@"xmg://getRootVC"];
+    // 参考 https://github.com/zhuozhuo/MnaTabbar
+    HFMainConfigs *mainConfigs = [HFMainConfigs defaultManager];
+    mainConfigs.tabbarLiquidGlassEnabled = NO;
+    mainConfigs.tabbarBGColor = UIColor.whiteColor;
+    mainConfigs.isTabbarSeparator = YES;
     
+    mainConfigs.navBarBGColor = UIColor.whiteColor;
+    mainConfigs.navBarTitleColor = UIColor.orangeColor;
+    mainConfigs.navBarFontSize = 17.f;
+    mainConfigs.isNavBarSeparator = YES;
+
+    UIViewController *rootVC = [MGJRouter objectForURL:@"xmg://getRootVC"];
     
     [MGJRouter openURL:@"xmg://addChildVC" withUserInfo:@{
                                                           @"vc": [HFViewController new],

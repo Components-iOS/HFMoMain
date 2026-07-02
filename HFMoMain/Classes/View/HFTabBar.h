@@ -7,13 +7,31 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HFTabBar : UITabBar
+NS_ASSUME_NONNULL_BEGIN
 
-/**
- *  设置全局的菜单栏背景颜色
- *
- *  @param globalColor 全局菜单栏背景颜色
- */
-+ (void)setGlobalBackGroundColor:(UIColor *)globalColor;
+@class HFTabBar;
+@class HFTabBarItem;
+
+@protocol HFTabBarDelegate <NSObject>
+
+- (void)tabBar:(HFTabBar *)tabBar didSelectIndex:(NSInteger)index;
 
 @end
+
+@interface HFTabBar : UIView
+
+@property (nonatomic, weak, nullable) id<HFTabBarDelegate> delegate;
+@property (nonatomic, strong, readonly) NSArray<HFTabBarItem *> *items;
+@property (nonatomic, assign) NSInteger selectedIndex;
+@property (nonatomic, assign) BOOL blurEnabled;
+@property (nonatomic, assign) UIBlurEffectStyle blurStyle;
+@property (nonatomic, strong, nullable) UIColor *barBackgroundColor;
+@property (nonatomic, assign) BOOL showsTopSeparator;
+@property (nonatomic, strong, nullable) UIColor *separatorColor;
+
+- (void)reloadWithItems:(NSArray<HFTabBarItem *> *)items selectedIndex:(NSInteger)selectedIndex;
+- (void)updateItem:(HFTabBarItem *)item atIndex:(NSInteger)index;
+
+@end
+
+NS_ASSUME_NONNULL_END

@@ -12,10 +12,14 @@
 
 #import "HFNavigationViewController.h"
 #import "HFTabBarController.h"
+#import "UIViewController+HFTabBar.h"
+#import "HFMainConfigs+HFStyle.h"
+#import "HFMainConfigs.h"
 #import "HFMainModuleAPI.h"
 #import "HFMainModuleRouter.h"
 #import "HFNavBar.h"
 #import "HFTabBar.h"
+#import "HFTabBarItem.h"
 
 FOUNDATION_EXPORT double HFMoMainVersionNumber;
 FOUNDATION_EXPORT const unsigned char HFMoMainVersionString[];

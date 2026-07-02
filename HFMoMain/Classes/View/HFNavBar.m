@@ -50,7 +50,7 @@
     
     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:[NSArray arrayWithObject:NSClassFromString(@"HFNavigationViewController")]];
     
-    // 设置导航栏颜色
+    // 设置导航栏标题颜色
     NSDictionary *titleDic = @{NSForegroundColorAttributeName: globalTextColor, NSFontAttributeName: [UIFont systemFontOfSize:fontSize]};
     [navBar setTitleTextAttributes:titleDic];
     navBar.tintColor = globalTextColor;
@@ -70,6 +70,7 @@
         self.separatorView = [UIView new];
         self.separatorView.alpha = 0.2;
         self.separatorView.backgroundColor = UIColor.lightGrayColor;
+        self.separatorView.hidden = YES;
         [self addSubview:_separatorView];
     }
     return self;
@@ -78,8 +79,24 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    [self bringSubviewToFront:self.separatorView];
-    [self.separatorView setFrame:CGRectMake(0, self.frame.size.height - 0.5, self.frame.size.width, 0.5)];
+    if (self.hf_showsSeparator) {
+        [self bringSubviewToFront:self.separatorView];
+        [self.separatorView setFrame:CGRectMake(0, self.frame.size.height - 0.5, self.frame.size.width, 0.5)];
+    }
+}
+
+- (void)setHf_showsSeparator:(BOOL)hf_showsSeparator {
+    _hf_showsSeparator = hf_showsSeparator;
+    self.separatorView.hidden = !hf_showsSeparator;
+}
+
+- (void)hf_applyBackgroundColor:(UIColor *)backgroundColor
+                     titleColor:(UIColor *)titleColor
+                       fontSize:(CGFloat)fontSize {
+    if (backgroundColor) {
+        [HFNavBar setGlobalBackGroundColor:backgroundColor];
+    }
+    [HFNavBar setGlobalTextColor:titleColor andFontSize:fontSize];
 }
 
 @end

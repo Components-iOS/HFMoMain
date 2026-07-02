@@ -9,6 +9,8 @@
 
 @interface HFNavBar : UINavigationBar
 
+@property (nonatomic, assign) BOOL hf_showsSeparator;
+
 /**
  *  设置全局的导航栏背景颜色
  *
@@ -23,5 +25,9 @@
  *  @param fontSize        全局导航栏文字大小
  */
 + (void)setGlobalTextColor:(UIColor *)globalTextColor andFontSize:(CGFloat)fontSize;
+
+- (void)hf_applyBackgroundColor:(nullable UIColor *)backgroundColor
+                     titleColor:(UIColor *)titleColor
+                       fontSize:(CGFloat)fontSize;
 
 @end
