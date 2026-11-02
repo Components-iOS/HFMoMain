@@ -32,11 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 检查系统版本是否支持 iOS 13 及以上
-    if (@available(iOS 13.0, *)) {
-        // 设置全局的外观主题为浅色模式
-        self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
-    }
+    self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
     
     // 设置手势代理
     UIGestureRecognizer *gester = self.interactivePopGestureRecognizer;

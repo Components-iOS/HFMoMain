@@ -22,17 +22,11 @@
  */
 + (void)setGlobalBackGroundColor:(UIColor *)globalColor {
     UINavigationBar *navBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:[NSArray arrayWithObject:NSClassFromString(@"HFNavigationViewController")]];
+    UINavigationBarAppearance *appearance = navBar.standardAppearance;
+    appearance.backgroundColor = globalColor;
     
-    // 设置背景颜色
-    if (@available(iOS 13.0, *)) {
-        UINavigationBarAppearance *appearance = navBar.standardAppearance;
-        appearance.backgroundColor = globalColor;
-        
-        navBar.standardAppearance = appearance;
-        navBar.scrollEdgeAppearance = appearance;
-    } else {
-        [navBar setBarTintColor:globalColor];
-    }
+    navBar.standardAppearance = appearance;
+    navBar.scrollEdgeAppearance = appearance;
 }
 
 /**
@@ -55,12 +49,10 @@
     [navBar setTitleTextAttributes:titleDic];
     navBar.tintColor = globalTextColor;
     
-    if(@available(iOS 13.0, *)) {
-        UINavigationBarAppearance *appearance = navBar.standardAppearance;
-        appearance.titleTextAttributes = titleDic;
-        navBar.standardAppearance = appearance;
-        navBar.scrollEdgeAppearance = appearance;
-    }
+    UINavigationBarAppearance *appearance = navBar.standardAppearance;
+    appearance.titleTextAttributes = titleDic;
+    navBar.standardAppearance = appearance;
+    navBar.scrollEdgeAppearance = appearance;
 }
 
 - (instancetype)init

@@ -261,7 +261,9 @@
 - (void)hf_updateChildViewControllerInsets {
     CGFloat bottomInset = 0.0;
     if (!self.extendContentUnderTabbar && !self.toolbarHidden) {
-        bottomInset = [self hf_tabBarHeight];
+        // 子控制器已继承容器的底部安全区。
+        // 仅追加工具栏超出底部安全区的高度。
+        bottomInset = MAX(0.0, [self hf_tabBarHeight] - self.view.safeAreaInsets.bottom);
     }
     
     for (UIViewController *viewController in self.hf_mutableViewControllers) {
