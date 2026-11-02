@@ -4,24 +4,24 @@ PODS:
     - HFMoMain/Controller (= 1.1.0)
     - HFMoMain/PublicAPI (= 1.1.0)
     - HFMoMain/View (= 1.1.0)
-    - HFRouter (= 0.2.0)
+    - HFRouter (= 1.0.0)
   - HFMoMain/Configs (1.1.0):
     - HFMoMain/View
-    - HFRouter (= 0.2.0)
+    - HFRouter (= 1.0.0)
   - HFMoMain/Controller (1.1.0):
     - HFMoMain/Configs
     - HFMoMain/View
-    - HFRouter (= 0.2.0)
+    - HFRouter (= 1.0.0)
   - HFMoMain/PublicAPI (1.1.0):
     - HFMoMain/Controller
-    - HFRouter (= 0.2.0)
+    - HFRouter (= 1.0.0)
   - HFMoMain/View (1.1.0):
-    - HFRouter (= 0.2.0)
-  - HFRouter (0.2.0):
-    - HFRouter/CTMediator (= 0.2.0)
-    - HFRouter/MGJRouter (= 0.2.0)
-  - HFRouter/CTMediator (0.2.0)
-  - HFRouter/MGJRouter (0.2.0)
+    - HFRouter (= 1.0.0)
+  - HFRouter (1.0.0):
+    - HFRouter/CTMediator (= 1.0.0)
+    - HFRouter/MGJRouter (= 1.0.0)
+  - HFRouter/CTMediator (1.0.0)
+  - HFRouter/MGJRouter (1.0.0)
 
 DEPENDENCIES:
   - HFMoMain (from `../`)
@@ -35,8 +35,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFMoMain: af870eaeab58de2fde2f6efa45c164b8abd853b6
-  HFRouter: d5ea85100b758cb378b3facbb6d35007a2c28f69
+  HFMoMain: 2b06ec483aed0e58b182ff41ba37e9f63d3ef318
+  HFRouter: d006d20f7db54c35e6b004c306019554efdd573e
 
 PODFILE CHECKSUM: f1f4a77a5ccedbda7833008ea0c951f329142593
 

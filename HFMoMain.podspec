@@ -39,5 +39,5 @@ APP主结构组件
       v.source_files = 'HFMoMain/Classes/View/**/*'
   end
   
-  s.dependency 'HFRouter', '0.2.0'
+  s.dependency 'HFRouter', '1.0.0'
 end
